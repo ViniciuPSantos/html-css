@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <h2>Tente abrir esse site em vários dispositivos ou simplesmente mude o tamanho do seu navegador.</h2>
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <h2>Vamos aprender a reproduzir audios em HTML5.</h2>
+    <audio src="midia/Haikaiss - King Kong (Clipe Oficial)_50k.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+    <p>Infelizmente seu navegdor não reproduz áudio. Caso queira clique <a href="midia/Haikaiss - King Kong (Clipe Oficial)_50k.mp3">aqui</a> para baixar o arquivo MP3</p>
+</body>
+</html>
