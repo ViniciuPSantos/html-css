@@ -32,7 +32,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--font3);
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 header > p{
@@ -73,6 +73,7 @@ section.imagem{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.363);
     display: inline-block;
+    padding: 5px;
 }
 
 footer{
